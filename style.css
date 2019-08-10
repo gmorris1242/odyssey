@@ -65,31 +65,31 @@
 .sm-offset-11 { margin-left: calc(91.66% + 10px); }
 .sm-offset-12 { margin-left: calc(100% + 10px); }
 
-.sm-push-1 { margin-left: calc(8.33% + 10px); }
-.sm-push-2 { margin-left: calc(16.66% + 10px); }
-.sm-push-3 { margin-left: calc(25% + 10px); }
-.sm-push-4 { margin-left: calc(33.33% + 10px); }
-.sm-push-5 { margin-left: calc(41.66% + 10px); }
-.sm-push-6 { margin-left: calc(50% + 10px); }
-.sm-push-7 { margin-left: calc(58.33% + 10px); }
-.sm-push-8 { margin-left: calc(66.66% + 10px); }
-.sm-push-9 { margin-left: calc(75% + 10px); }
-.sm-push-10 { margin-left: calc(83.33% + 10px); }
-.sm-push-11 { margin-left: calc(91.66% + 10px); }
-.sm-push-12 { margin-left: calc(100% + 10px); }
+.sm-push-1 { left: calc(8.33%); }
+.sm-push-2 { left: calc(16.66%); }
+.sm-push-3 { left: calc(25%); }
+.sm-push-4 { left: calc(33.33%); }
+.sm-push-5 { left: calc(41.66%); }
+.sm-push-6 { left: calc(50%); }
+.sm-push-7 { left: calc(58.33%); }
+.sm-push-8 { left: calc(66.66%); }
+.sm-push-9 { left: calc(75%); }
+.sm-push-10 { left: calc(83.33%); }
+.sm-push-11 { left: calc(91.66%); }
+.sm-push-12 { left: calc(100%); }
 
-.sm-pull-1 { margin-left: calc((-8.33% + 5px) * 2); }
-.sm-pull-2 { margin-left: calc((-16.66% + 5px) * 2); }
-.sm-pull-3 { margin-left: calc((-25% + 5px) * 2); }
-.sm-pull-4 { margin-left: calc((-33.33% + 5px) * 2); }
-.sm-pull-5 { margin-left: calc((-41.66% + 5px) * 2); }
-.sm-pull-6 { margin-left: calc((-50% + 5px) * 2); }
-.sm-pull-7 { margin-left: calc((-58.33% + 5px) * 2); }
-.sm-pull-8 { margin-left: calc((-66.66% + 5px) * 2); }
-.sm-pull-9 { margin-left: calc((-75% + 5px) * 2); }
-.sm-pull-10 { margin-left: calc((-83.33% + 5px) * 2); }
-.sm-pull-11 { margin-left: calc((-91.66% + 5px) * 2); }
-.sm-pull-12 { margin-left: calc((-100% + 5px) * 2); }
+.sm-pull-1 { left: calc(-8.33%); }
+.sm-pull-2 { left: calc(-16.66%); }
+.sm-pull-3 { left: calc(-25%); }
+.sm-pull-4 { left: calc(-33.33%); }
+.sm-pull-5 { left: calc(-41.66%); }
+.sm-pull-6 { left: calc(-50%); }
+.sm-pull-7 { left: calc(-58.33%); }
+.sm-pull-8 { left: calc(-66.66%); }
+.sm-pull-9 { left: calc(-75%); }
+.sm-pull-10 { left: calc(-83.33%); }
+.sm-pull-11 { left: calc(-91.66%); }
+.sm-pull-12 { left: calc(-100%); }
 
 @media (min-width: 600px) {
   .md-12 { width: calc((100% - 20px * 1) / 1); }
