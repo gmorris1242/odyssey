@@ -18,6 +18,15 @@
   box-sizing: border-box;
 }
 
+/* GLOBAL */
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* GRID */
 .row {
   max-width: 1200px;
