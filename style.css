@@ -404,6 +404,13 @@ a { text-decoration: none; }
   .xlg-text-justify { text-align: justify; }
 }
 
+@media (min-width: 1900px) {
+  .xxlg-text-center { text-align: center; }
+  .xxlg-text-right { text-align: right; }
+  .xxlg-text-left { text-align: left; }
+  .xxlg-text-justify { text-align: justify; }
+}
+
 /* VISIBILITY HELPERS */
 .hide { display: none !important; }
 .md-show { display: none; }
@@ -429,6 +436,12 @@ a { text-decoration: none; }
   .xlg-hide { display: none !important; }
   .xlg-show { display: block !important; }
   .xlg-show-inline { display: inline-block !important; }
+}
+
+@media (min-width: 1900px) {
+  .xxlg-hide { display: none !important; }
+  .xxlg-show { display: block !important; }
+  .xxlg-show-inline { display: inline-block !important; }
 }
 
 /* DISPLAY HELPERS */
