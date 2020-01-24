@@ -363,6 +363,7 @@ a { text-decoration: none; }
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
 .uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
 .capitalize { text-transform: capitalize; }
 .nowrap { white-space: nowrap; }
 
@@ -375,13 +376,27 @@ a { text-decoration: none; }
 .fz-16 { font-size: 16px; }
 .fz-18 { font-size: 18px; }
 .fz-20 { font-size: 20px; }
+.fz-22 { font-size: 22px; }
 .fz-24 { font-size: 24px; }
+.fz-28 { font-size: 28px; }
 .fz-32 { font-size: 32px; }
+.fz-36 { font-size: 36px; }
 .fz-40 { font-size: 40px; }
 .fz-48 { font-size: 48px; }
 .fz-56 { font-size: 56px; }
 .fz-64 { font-size: 64px; }
 .fz-72 { font-size: 72px; }
+.fz-96 { font-size: 96px; }
+
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
 
 @media (min-width: 600px) {
   .md-text-center { text-align: center; }
