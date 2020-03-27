@@ -463,11 +463,30 @@ a { text-decoration: none; }
 /* DISPLAY HELPERS */
 .inline-block { display: inline-block; }
 .block { display: block; }
-.flex-wrapper { display: flex; }
+.flex { display: flex; }
+
+/* FLEX HELPERS */
+.jc-start { justify-content: flex-start; }
+.jc-end { justify-content: flex-end; }
+.jc-center { justify-content: center;}
+.jc-space-around { justify-content: space-around; }
+.jc-space-between { justify-content: space-between; }
+.jc-space-evenly { justify-content: space-evenly; }
+
+.ai-start { align-items: flex-start; }
+.ai-end { align-items: flex-end; }
+.ai-center { align-items: center; }
+.ai-stretch { align-items: stretch; }
+.ai-baseline { align-items: baseline; }
+
+.as-start { align-self: flex-start; }
+.as-end { align-self: flex-end; }
+.as-center { align-self: center; }
+.as-stretch { align-self: stretch; }
 
 /* POSITION HELPERS */
 .relative { position: relative; }
-.position { position: absolute; }
+.absolute { position: absolute; }
 .static { position: static; }
 .float-right { float: right; }
 .float-left { float: left; }
