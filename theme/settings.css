@@ -18,16 +18,6 @@
   box-sizing: border-box;
 }
 
-/* GLOBAL */
-img {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
-}
-
-a { text-decoration: none; }
-
 /* GRID */
 .row {
   width: 100%;
@@ -366,6 +356,8 @@ a { text-decoration: none; }
 .lowercase { text-transform: lowercase; }
 .capitalize { text-transform: capitalize; }
 .nowrap { white-space: nowrap; }
+.underline { text-decoration: underline; }
+.line-through { text-decoration: line-through; }
 
 .text-center { text-align: center; }
 .text-right { text-align: right; }
