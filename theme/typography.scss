@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+$heading: 'sans-serif'
+$copy: 'serif'
+$btn-font: $copy;
 
-@font-face {
-  font-family: "Brush";
-  src: font-url('brush.ttf');
-}
-
-$tal-de-tali-font: 'Fascinate Inline', cursive;
-$label-font: $tal-de-tali-font;
-$btn-font: $tal-de-tali-font;
-$brush-font: "Brush";
-
-.logo-font { font-family: $tal-de-tali-font; }
-.brush-font { font-family: $brush-font; }
+.copy { font-family: $copy; }
+.heading { font-family: $heading; }

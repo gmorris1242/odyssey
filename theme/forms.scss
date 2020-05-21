@@ -1,19 +1,31 @@
 form {
   input,
-  textarea {
+  textarea,
+  select {
     width: 100%;
-    border-radius: 5px;
     border: none;
-    padding: 5px;
+    border-radius: 0;
+    background-color: $gray;
+    padding: 8px;
     margin-bottom: 8px;
+    font-family: $copy;
+    height: 38px;
   }
 
   textarea { min-height: 200px; }
 
+  input[type='file'] { border: none; }
+
+  input[type='submit'],
+  input[type='file'] {
+    background: transparent;
+    height: auto;
+  }
+
   label {
     display: inline-block;
+    font-family: $copy;
     margin-bottom: 8px;
-    font-family: $label-font;
-    color: $yellow;
+    font-weight: bold;
   }
 }
