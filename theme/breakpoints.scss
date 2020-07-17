@@ -4,10 +4,10 @@ $xlarge: 1200px;
 $xxlarge: 1900px;
 
 $breakpoints: (
-  'medium': 600px,
-  'large': 900px,
-  'xlarge': 1200px,
-  'xxlarge': 1900px
+  'medium': $medium,
+  'large': $large,
+  'xlarge': $xlarge,
+  'xxlarge': $xxlarge
 ) !default;
 
 @mixin breakpoint($breakpoint) {

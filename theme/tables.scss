@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    text-align: left;
+    padding: 5px;
+  }
+
+
+  tr {
+    border: 1px solid #adadad;
+
+    &:nth-child(even) { background-color: $gray; }
+  }
+
+  .btns {
+    width: 165px;
+    white-space: nowrap;
+  }
+}
+
+.table-responsive { overflow: scroll; }
